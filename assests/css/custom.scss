@@ -1,24 +1,31 @@
----
----
-
-@import "{{ site.theme }}";
-/* Change the header background to orange */
 .page-header {
-  background-color: #f57c00; /* Deep orange */
-  color: white;
+  background-color: #f57c00;
+  color: #ffffff;
 }
 
-/* Change link colors */
+/* Link colors */
 a {
   color: #f57c00;
+  text-decoration: none;
 }
 
 a:hover {
   color: #e65100;
+  text-decoration: underline;
 }
 
-/* Change body background and text color */
+/* Body background: light gray */
 body {
-  background-color: #f5f5f5; /* Light gray */
-  color: #333;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+/* Section headings */
+h1, h2, h3, h4 {
+  color: #f57c00;
+}
+
+/* Project cards or content spacing */
+.main-content {
+  padding: 1rem 2rem;
 }
