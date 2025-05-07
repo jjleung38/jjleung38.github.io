@@ -14,21 +14,24 @@ This project models flood extent in Hong Kong under 3 greenhouse gas emission sc
 - ArcGIS Pro
 - Pycharm IDE
 
-## X Data
+## ℹ️ Data
 
-- Lands Department(HK). "Digital Terrain Model"[asc].Scale Not Given."DATA.GOV.HK".August 1,2020.https://data.gov.hk/en-data/dataset/hk-landsd-openmap-5m-grid-dtm/resource/620c4f4f-eac4-472f-9074-dffa2ad596fd
+- Lands Department(HK). "Digital Terrain Model"[asc].Scale Not Given. "DATA.GOV.HK". August 1,2020. https://data.gov.hk/en-data/dataset/hk-landsd-openmap-5m-grid-dtm/resource/620c4f4f-eac4-472f-9074-dffa2ad596fd
+- Planning Department(HK). "2021 Raster Grids on Land Utilization"[API].Scale Not Given. "DATA.GOV.HK".September 30,2022. https://data.gov.hk/en-data/dataset/hk-pland-pland1-land-utilization-in-hong-kong-raster-grid/resource/6fe96592-0ca5-4a7a-8bc2-b658f76b2880
 
-## 📊 Methods
+## 📊 Workflow
 
-- Buffer analysis around transit stops
-- Network analysis for 10-minute walking catchment
-- Overlay with population density layers
+- Georeference Digital Terrain Model (DTM) to assign coordinates
+- <ins>Contour</ins> to convert DTM into a contour map
+- <ins>Topo to Raster</ins> to convert contour map into a digital elevation model
+  - Output cell size: 10
+  - Using polygons of the entire Hong Kong territory as the **boundary**
+- <ins>Raster Calculator</ins> to generate the flood extent raster layers under 3 GHG emissions scenarios
+- Overlay flood extent raster layers on Land Utilization Raster Grids to visualize land types that are affected by future coastal flooding
 
 ## 🗺️ Output
 
-![Transit Accessibility Map](accessibility_map.png)
-
-📝 Full report: [summary.pdf](summary.pdf)  
+![](HKFloodLayout)
 📖 Method details: [methods.md](methods.md)
 
 ## 📁 Files Included
