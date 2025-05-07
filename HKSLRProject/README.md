@@ -28,18 +28,12 @@ This project models flood extent in Hong Kong under 3 greenhouse gas emission sc
   - Using polygons of the entire Hong Kong territory as the **boundary**
 - <ins>Raster Calculator</ins> to generate the flood extent raster layers under 3 GHG emissions scenarios
 - Overlay flood extent raster layers on Land Utilization Raster Grids to visualize land types that are affected by future coastal flooding
+📖 [Method details](methods.md)
 
 ## 🗺️ Output
 
 ![Output](FloodLayout.jpg)
-📖 Method details: [methods.md](methods.md)
-
-## 📁 Files Included
-
-- `accessibility_map.png`: Final output map
-- `summary.pdf`: 2-page project report
-- `methods.md`: Step-by-step workflow
 
 ## ✍️ Author
 
-Jonathan Leung — University of Waterloo, Geomatics
+Jonathan Leung — University of Waterloo, Geomatics with Co-op
