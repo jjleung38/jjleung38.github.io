@@ -28,8 +28,6 @@ This project models flood extent in Hong Kong under 3 greenhouse gas emission sc
 - Generate the flood extent raster layers using the mean sea level regarding the 3 GHG emissions scenarios
 - Overlay flood extent raster layers on Land Utilization Raster Grids to visualize land types that are affected by future coastal flooding
 
-👉👉👉[Method](method)👈👈👈
-
 ## 🗺️ Output
 
 ![Output](FloodLayout.jpg)
