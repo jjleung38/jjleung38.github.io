@@ -31,7 +31,7 @@ This project models flood extent in Hong Kong under 3 greenhouse gas emission sc
 
 ## 🗺️ Output
 
-![Output](HKFloodLayout.jpg)
+![Output](FloodLayout.jpg)
 📖 Method details: [methods.md](methods.md)
 
 ## 📁 Files Included
