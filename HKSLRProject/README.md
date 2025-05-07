@@ -21,14 +21,12 @@ This project models flood extent in Hong Kong under 3 greenhouse gas emission sc
 
 ## 📊 Workflow
 
-- Georeference Digital Terrain Model (DTM) to assign coordinates
-- <ins>Contour</ins> to convert DTM into a contour map
-- <ins>Topo to Raster</ins> to convert contour map into a digital elevation model
-  - Output cell size: 10
-  - Using polygons of the entire Hong Kong territory as the **boundary**
-- <ins>Raster Calculator</ins> to generate the flood extent raster layers under 3 GHG emissions scenarios
+- Georeferenced Digital Terrain Model (DTM) to assign coordinates
+- Convert DTM into a contour map
+- Convert contour map into a digital elevation model
+- Generate the flood extent raster layers using the mean sea level regarding 3 GHG emissions scenarios
 - Overlay flood extent raster layers on Land Utilization Raster Grids to visualize land types that are affected by future coastal flooding
-📖 [Method details](methods.md)
+👉👉👉[Method details](methods.md)👈👈👈
 
 ## 🗺️ Output
 
