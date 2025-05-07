@@ -19,5 +19,3 @@ I'm Jonathan Leung, a Geomatics student at the University of Waterloo.
 - **Summary:** This project models sea level rise in Hong Kong and overlays flood zones on land use layers to reveal the spatial extent of urban, environmental, and geophysical vulnerability by 2100.
 
 ---
-
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/yourprofile)
