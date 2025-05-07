@@ -21,7 +21,8 @@ This project models flood extent in Hong Kong under 3 greenhouse gas emission sc
   - Source: https://www.pland.gov.hk/pland_en/info_serv/open_data/landu/
 
 ## 📊 Workflow
-See the full workflow [here](method.md)
+
+👉👉[Full Workflow](method.md)
 - Georeferenced Digital Terrain Model (DTM) to assign coordinates
 - Convert DTM into a contour map
 - Convert the contour map into a digital elevation model
