@@ -14,10 +14,9 @@ I'm Jonathan Leung, a Geomatics student at the University of Waterloo.
 - **Summary:** Analyzed gaps in public transit accessibility across Kitchener-Waterloo.
 - [View Project Files](https://github.com/yourusername/transit-accessibility)
 
-### 🗺️ Projected Sea Level Rise on Hong Kong Land Use
+### 🗺️ [Projected Sea Level Rise on Hong Kong Land Use](https://jjleung38.github.io/HKSLRProject)
 - **Tools:** 
 - **Summary:** This project models sea level rise in Hong Kong and overlays flood zones on land use layers to reveal the spatial extent of urban, environmental, and geophysical vulnerability by 2100.
-- [View Maps](https://jjleung38.github.io/HKSLRProject)
 
 ---
 
