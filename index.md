@@ -10,14 +10,14 @@ I'm Jonathan Leung, a Geomatics student at the University of Waterloo.
 ## 🔍 Featured Projects
 
 ### 🛰️ Transit Accessibility Analysis
-- **Tools:** ArcGIS Pro, QGIS
+- **Tools:** ArcGIS Pro
 - **Summary:** Analyzed gaps in public transit accessibility across Kitchener-Waterloo.
 - [View Project Files](https://github.com/yourusername/transit-accessibility)
 
-### 🗺️ Land Use Mapping with Remote Sensing
-- **Tools:** Landsat data, QGIS
-- **Summary:** Classified land use types using satellite imagery.
-- [View Maps](https://yourusername.github.io/maps)
+### 🗺️ Projected Sea Level Rise on Hong Kong Land Use
+- **Tools:** 
+- **Summary:** This project models sea level rise in Hong Kong and overlays flood zones on land use layers to reveal the spatial extent of urban, environmental, and geophysical vulnerability by 2100.
+- [View Maps](https://jjleung38.github.io/HKSLRProject)
 
 ---
 
