@@ -9,6 +9,7 @@ This document outlines the step-by-step workflow used to project the extent of c
 - Restyle classification symbology for **Land Utilization Raster Grid** layer
 - DTM dataset does not contain any coordinates
   - Manual Georeferencing is required
+
 ![](HKDTM.png)
 
 ### B. Topographic Map
@@ -24,12 +25,16 @@ Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map
   HK_DTM = "Whole_HK_DTM_5m.asc"
   outContour = r"C:\Users\User\Documents\JonathanLeung_Winter2025\HK_DTM_5m_Full\HK Processing\HK Processing.gdb\Contour_Whole_HKDTM"
   arcpy.sa.Contour(HK_DTM,outContour,contour_interval=30,base_contour=0, z_factor=1,contour_type='CONTOUR') </code></pre>
+
 ![](WholeContour_HK.png)
+
 ### C. Digital Elevation Model 
 - Set boundary for *Topo to Raster (Spatial Analyst)*
   - Generate a feature class of polygons covering the entire Hong Kong territory
-  ![](IslandBoundary.png)
+
+![](IslandBoundary.png)
 - Run *Topo to Raster (Spatial Analyst)* to convert the topographic map to a DEM
+
 ![](TopoHK_FULL.png)
 
 ### D. Flood Level Simulation 
@@ -40,7 +45,8 @@ Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map
   Very low  | 0.38 | "HKDEM"<=0.38
   Intermediate | 0.56 | "HKDEM"<=0.56
   Very High | 0.78 | "HKDEM"<=0.78
-Using intermediate GHG emission scenario
+Using intermediate GHG emission scenario:
+
 ![](FloodBinary.png)
 > Red indicates flooded areas
 > Grey indicates non-flooded areas
@@ -51,11 +57,13 @@ Using intermediate GHG emission scenario
   - Apply OpenStreetMap Dark Gray Canvas Base (WGS84) as basemap
   - Overlay flood binary raster layers on top of each other
   - Style all binary raster layers in different shades of blue or cyan
-  ![](Basemap.png)
+
+![](Basemap.png)
 - ***Inset Maps***: highlight 3 specific areas to showcase impact
   - Overlay the intermediate emission scenario flood binary raster layer on **Land Utilization Raster Grid**
   - Apply transparency and layer blend to show what land use would be affected by coastal flooding
-  ![](InsetSource.png)
+
+![](InsetSource.png)
 
 ---
 
