@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jonathan Leung's GIS Portfolio
+title: Jonathan Leung
 ---
 
 # Welcome to My GIS Portfolio 🌍
