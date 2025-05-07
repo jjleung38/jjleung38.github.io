@@ -43,7 +43,7 @@ Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map
 Using intermediate GHG emission scenario
 ![](FloodBinary.png)
 > Red indicates flooded areas
-> Grey indicates not flooded areas
+> Grey indicates non-flooded areas
 - Delete the grey label in the symbology tab for better visualization
 
 ### E. Symbology
@@ -56,3 +56,8 @@ Using intermediate GHG emission scenario
   - Overlay the intermediate emission scenario flood binary raster layer on **Land Utilization Raster Grid**
   - Apply transparency and layer blend to show what land use would be affected by coastal flooding
   ![](InsetSource.png)
+
+---
+
+### Final Product
+
