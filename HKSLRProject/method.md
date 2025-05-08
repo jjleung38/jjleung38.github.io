@@ -40,6 +40,7 @@ Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map
 ### D. Flood Level Simulation 
 - Run *Raster Calculator (Spatial Analyst)* to generate binary raster layers that indicate areas that would be submerged under water or not
   This project uses these [figures](https://www.hko.gov.hk/en/climate_change/proj_hk_msl_med_conf_info.htm) for analysis 
+Inputs
 
 Emission Scenario  | Median (m)  | Algebra Expression
 ------------- | ------------- | -------------
