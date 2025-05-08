@@ -1,4 +1,4 @@
-# 🛠️ Methods
+# 🛠️ Workflow
 
 This document outlines the step-by-step workflow used to project the extent of coastal flooding in Hong Kong in 2100.
 
