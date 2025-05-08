@@ -40,13 +40,12 @@ Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map
 ### D. Flood Level Simulation 
 - Run *Raster Calculator (Spatial Analyst)* to generate binary raster layers that indicate areas that would be submerged under water or not
   This project uses these [figures](https://www.hko.gov.hk/en/climate_change/proj_hk_msl_med_conf_info.htm) for analysis 
-Inputs
 
-Emission Scenario  | Median (m)  | Algebra Expression
-------------- | ------------- | -------------
-Very low  | 0.38 | "HKDEM"<=0.38
-Intermediate | 0.56 | "HKDEM"<=0.56
-Very High | 0.78 | "HKDEM"<=0.78
+  Emission Scenario | Median (m)  | Algebra Expression
+  ------------- | ------------- | -------------
+  Very low  | 0.38 | "HKDEM"<=0.38
+  Intermediate | 0.56 | "HKDEM"<=0.56
+  Very High | 0.78 | "HKDEM"<=0.78
 
 ![Using intermediate GHG emission scenario](FloodBinary.png)
 > Red indicates flooded areas
