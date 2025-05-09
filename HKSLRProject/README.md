@@ -1,4 +1,4 @@
-# 🚍 Projected Sea Level Rise on Hong Kong Land Use
+# 🌊 Projected Sea Level Rise on Hong Kong Land Use
 
 This project models flood extent in Hong Kong under 3 greenhouse gas emission scenarios as defined by the Intergovernmental Panel on Climate Change (IPCC)
 
