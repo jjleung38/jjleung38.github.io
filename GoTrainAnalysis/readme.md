@@ -19,6 +19,7 @@
 
 ## 📊 Workflow
 
+- Import the GO Train Station feature class as facilities in the Service Area Analysis tool
 - Service Area Analysis based on GO Train Stations
   - Driving Time in 5, 10, and 20 minutes
 - Select CSDs in the CSD shapefile that overlap with the service area layer
