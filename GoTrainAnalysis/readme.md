@@ -39,7 +39,7 @@
 
 ## 🗺️ Output
 
-![]()
+![](Summary_Letter_Landscape.jpg)
 
 ## ✍️ Author
 
