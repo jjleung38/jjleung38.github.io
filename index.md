@@ -16,5 +16,3 @@ I'm Jonathan Leung, a Geomatics student at the University of Waterloo.
 ### 🚆[GTA GO Train Coverage Network Analysis](https://jjleung38.github.io/GoTrainAnalysis)
 - **Tools:** ArcGIS Pro
 - **Summary:** Analyzed gaps in GO Train transit accessibility across the Greater Toronto Area
-
----
