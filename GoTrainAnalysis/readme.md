@@ -22,6 +22,7 @@
 ### A. 🛜 Service Area Analysis
 - Import the GO Train Station point layer as facilities into the Service Area Analysis tool
 - Generate Service Area polygons on 5, 10, and 20-minute driving time
+![](ServiceArea.jpg)
 
 ### B. 🔧 Configuring Census Subdivision Layer
 - Run **Select By Location** CSDs in the CSD shapefile that intersect with the service area layer
@@ -39,7 +40,7 @@
 
 ## 🗺️ Output
 
-![](Summary Letter Landscape.jpg)
+![](FinalOutput.jpg)
 
 ## ✍️ Author
 
