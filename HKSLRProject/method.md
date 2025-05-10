@@ -2,9 +2,9 @@
 
 This document outlines the step-by-step workflow used to project the extent of coastal flooding in Hong Kong in 2100.
 
-## Workflow Steps
+## Steps
 
-### A. Data Preparation
+### A. 🔩 Data Preparation
 - Download **Land Utilization Raster Grid**, and **Hong Kong Digital Terrain Model** from [DATA.GOV.HK](https://data.gov.hk/en/)
 - Restyle classification symbology for **Land Utilization Raster Grid** layer
 - DTM dataset does not contain any coordinates
@@ -12,7 +12,7 @@ This document outlines the step-by-step workflow used to project the extent of c
 
 ![](HKDTM.png)
 
-### B. Topographic Map
+### B. 🗺️ Topographic Map
 Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map 
 - As a Python Script:
   <pre><code>import arcpy
@@ -28,7 +28,7 @@ Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map
 
 ![](WholeContour_HK.png)
 
-### C. Digital Elevation Model 
+### C. 📡 Digital Elevation Model 
 - Set boundary for *Topo to Raster (Spatial Analyst)*
   - Generate a feature class of polygons covering the entire Hong Kong territory
 
@@ -37,7 +37,7 @@ Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map
 
 ![](TopoHK_FULL.png)
 
-### D. Flood Level Simulation 
+### D. 💧 Flood Level Simulation 
 - Run Raster Calculator (Spatial Analyst) to generate binary raster layers that indicate areas that would be submerged under water or not. This project uses these figures for analysis:
 
 | Emission Scenario | Median (m) | Algebra Expression |
@@ -52,7 +52,7 @@ Run *Contour (Spatial Analyst)* to convert DTM layer into a topographic map
 > Grey indicates non-flooded areas
 - Delete the grey label in the symbology tab for better visualization
 
-### E. Symbology
+### E. 🔣 Symbology
 - ***Main Map***
   - Apply OpenStreetMap Dark Gray Canvas Base (WGS84) as basemap
   - Overlay flood binary raster layers on top of each other
