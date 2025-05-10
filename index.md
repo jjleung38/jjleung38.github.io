@@ -13,7 +13,7 @@ I'm Jonathan Leung, a Geomatics student at the University of Waterloo.
 - **Tools:** ArcGIS Pro
 - **Summary:** Analyzed gaps in GO Train transit accessibility across the Greater Toronto Area
 
-### 🌊[Projected Sea Level Rise on Hong Kong Land Use](https://jjleung38.github.io/HKSLRProject)
+### 🌊[Projected Sea Level on Hong Kong Land Use](https://jjleung38.github.io/HKSLRProject)
 - **Tools:** ArcGIS Pro, Pycharm
 - **Summary:** Model sea level rise in Hong Kong and overlay flood zones on land use layers to reveal the spatial extent of urban, environmental, and geophysical vulnerability by 2100.
 
