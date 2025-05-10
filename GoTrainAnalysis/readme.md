@@ -19,16 +19,22 @@
 
 ## 📊 Workflow
 
-- Import the GO Train Station feature class as facilities in the Service Area Analysis tool
-- Service Area Analysis based on GO Train Stations
-  - Driving Time in 5, 10, and 20 minutes
-- Select CSDs in the CSD shapefile that overlap with the service area layer
+### A. 🛜 Service Area Analysis
+- Import the GO Train Station point layer as facilities into the Service Area Analysis tool
+- Generate Service Area polygons on 5, 10, and 20-minute driving time
+
+### B. 🔧 Configuring Census Subdivision Layer
+- Run **Select By Location** CSDs in the CSD shapefile that intersect with the service area layer
 - Join Census Data with CSD shapefiles using **Spatial Join**
-  - Calculate the total area of each CSD polygon with **field calculator**
-- Run **Intersect** to produce a new feature class with the overlapped parts of each CSD
+  -  Use **field calculator** to calculate the total area of each CSD polygon
+
+### C. 💡 Creating an overlapped feature class
+- Run **Intersect** with the CSD layer and the service area layer to produce a new feature class of polygons containing overlapping areas
   - Calculate the total area of each polygon with **field calculator**
   - Calculate the sum of polygons that share the same CSDUID
-- Join the overlapped feature class to the original CSD shapefile
+
+### D. 🧮 Computing the transit coverage% of each CSD
+- Join the overlapped feature class to the original CSD shapefile using CSDUID (identifier)
 - Calculate % of each CSD's area covered by the service area
 
 ## 🗺️ Output
