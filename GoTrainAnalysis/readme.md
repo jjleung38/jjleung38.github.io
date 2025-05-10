@@ -1,4 +1,4 @@
-# 🚍 GTA GO Train Transit Coverage Network Analysis
+# 🚍 GTA GO Train Coverage Network Analysis
 
 
 ## 📌 Objectives
