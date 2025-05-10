@@ -9,7 +9,7 @@ I'm Jonathan Leung, a Geomatics student at the University of Waterloo.
 
 ## 🔍 Featured Projects
 
-### 🚆 [Transit Accessibility Analysis](https://jjleung.github.io/GOTrainAnalysis
+### 🚆 [Transit Accessibility Analysis](https://jjleung.github.io/GOTrainAnalysis)
 - **Tools:** ArcGIS Pro
 - **Summary:** Analyzed gaps in GO Train transit accessibility across Greater Toronto Area
 
