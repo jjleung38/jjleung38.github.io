@@ -17,7 +17,7 @@ This is sample placeholder writing used for testing text layouts.
 The quick brown layout jumps over lazy spacing.  
 Designers use such words to see how content will look in real alignment.
 
-![UHHH](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theguardian.com%2Fenvironment%2F2020%2Faug%2F10%2Fmauritius-calls-for-urgent-help-to-prevent-oil-spill-disaster&psig=AOvVaw1lySnVhTfP1Ahxzz2x5FIG&ust=1761833064113000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDe8eHJyZADFQAAAAAdAAAAABAE)
+![](https://i.guim.co.uk/img/media/27974093ba1227c5e6ba29794f15a8c72266c447/0_68_2048_1229/master/2048.jpg?width=620&dpr=2&s=none&crop=none)
 
 ### Lorem Ipsum
 
@@ -33,4 +33,5 @@ Designers use such words to see how content will look in real alignment.
 | Australia       | 5.1  | 8.3  | 12.9 | 23.7 | 32.9 | 46.5 |
 
 ---
+
 
