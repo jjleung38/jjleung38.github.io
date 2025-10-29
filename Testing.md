@@ -1,30 +1,25 @@
-# 🌍 Global Renewable Energy Report 2025
+# 🌍 Lorum Ipsum
 
-**Author:** Jonathan Leung  
-**Date:** October 29, 2025  
-**Organization:** University of Waterloo — Geomatics Department  
 
 ---
 
-## 🧭 Introduction
+## 🧭 Lorem Ipsum
 
-Renewable energy is one of the fastest-growing sectors worldwide.  
-This report provides a detailed overview of solar, wind, hydro, and geothermal production data across multiple regions.
-
-Key findings:
-- Solar power capacity increased by **24%** year-over-year.
-- Offshore wind farms contributed to **30%** of Europe’s total wind generation.
-- Hydroelectric energy remains the **largest renewable source** globally.
+Doloremque velit quas adipisci unde saepe, temporibus harum alias nulla.  
+Inventore, dolores dignissimos! Temporibus porro deserunt ad eius quos veniam.  
+Consectetur omnis laudantium, animi voluptate ducimus nemo pariatur modi expedita.
 
 ---
 
-## ☀️ Solar Power Capacity Trends (2015–2025)
+## ☀️ Lorem Ipsum
 
-The following chart shows the rise in installed solar capacity (in GW).
+This is sample placeholder writing used for testing text layouts.  
+The quick brown layout jumps over lazy spacing.  
+Designers use such words to see how content will look in real alignment.
 
-![Solar Power Growth Chart](https://upload.wikimedia.org/wikipedia/commons/5/5f/Solar_PV_campacity_GW_world_map_2020.png)
+![UHHH](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theguardian.com%2Fenvironment%2F2020%2Faug%2F10%2Fmauritius-calls-for-urgent-help-to-prevent-oil-spill-disaster&psig=AOvVaw1lySnVhTfP1Ahxzz2x5FIG&ust=1761833064113000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDe8eHJyZADFQAAAAAdAAAAABAE)
 
-### Table 1: Solar Capacity by Country (in Gigawatts)
+### Lorem Ipsum
 
 | Country         | 2015 | 2017 | 2019 | 2021 | 2023 | 2025 |
 |-----------------|------|------|------|------|------|------|
@@ -37,6 +32,5 @@ The following chart shows the rise in installed solar capacity (in GW).
 | Canada          | 2.0  | 2.5  | 3.2  | 4.5  | 6.2  | 8.1  |
 | Australia       | 5.1  | 8.3  | 12.9 | 23.7 | 32.9 | 46.5 |
 
-> **Note:** Data sourced from IRENA and International Energy Agency (IEA) estimates.
-
 ---
+
